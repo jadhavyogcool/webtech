@@ -1,3 +1,5 @@
+//app.js
+
 var myApp = angular.module("myApp", []);
 myApp.service("ContactService" , function(){
 	var uid = 1;
@@ -99,3 +101,5 @@ myApp.controller("ContactController" , function($scope , ContactService){
 		    $scope.ifSearchUser = false;
 		    $scope.title = "List of Users";
 		  }		  
+		};
+});
